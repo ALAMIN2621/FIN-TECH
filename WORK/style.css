@@ -148,4 +148,31 @@ header {
     font-size: 12px;
     color: #6c757d;
   }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.one{
+    padding-top: 20px;
+    background-color: #003087;
+    width: 100%;
+    color: white;
+    
+}
+h1{ text-align: center;}
 
+.main{display: flex;}
+
+.two{
+    justify-content: space-between;
+margin: 60px;}
+
+.three{
+    justify-content: space-between;
+    margin: 60px;
+}
+a:-webkit-any-link {
+    color: white;
+    text-decoration: none;
+}
