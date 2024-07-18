@@ -1,6 +1,79 @@
+
+
+
+
+* {
+    margin: 25px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Learn More Button styles */
+.learn-more-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #009cde;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 41px;
+    transition: all 0.3s ease;
+    margin-left: 39%;
+}
+
+.learn-more-button:hover {
+    background-color: #0081b3;
+    border-color: #0081b3;
+}
+
+
+
 .chris{
     background-color: rgb(107, 63, 228);
     border-radius: 10px;
     font-size: large;
+
+    
+    margin-left: 45%;
+    margin-top: 100px;
+}
+
+
+.Eli{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 211px;
+
     
 }
+
+.greater{
+    font-size: 2em;
+    margin: 0 20px;
+}
+.pay{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+
+}
+
+.circle {
+    width: 100px; /* Width of the circle */
+    height: 100px; /* Height of the circle */
+    border-radius: 50%; /* Make it a circle */
+    background-color:#a19999; /* Background color of the circle */
+    color: black; /* Color of the text */
+    font-size: 24px; /* Font size of the number */
+    text-align: center; /* Center align the text */
+    line-height: 100px; /* Center vertically */
+    font-weight: bold; /* Bold text */
+  }
